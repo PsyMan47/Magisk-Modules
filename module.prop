@@ -1,7 +1,7 @@
-id=template
-name=Template Module
+id=ds-mod
+name=Dual-Speaker Mod (Mi Note 2)
 version=v1
 versionCode=1
-author=topjohnwu
-description=A short description
+author=PsyMan47
+description=Make your Mi Note 2 sounds better with Dual-Speaker Mod
 minMagisk=1500
