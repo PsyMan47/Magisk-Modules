@@ -1,7 +1,4 @@
 #!/system/bin/sh
-# Please don't hardcode /magisk/modname/... ; instead, please use $MODDIR/...
-# This will make your scripts compatible even if Magisk change its mount point in the future
-MODDIR=${0%/*}
 
-# This script will be executed in post-fs-data mode
-# More info in the main Magisk thread
+for i in $(find /sys/devices -name "enable_wakeup") ; do if grep -q 0 "$i" ; then echo 1 > $i ; fi ; done
+for i in $(find /sys/devices -name "wakeup_enable") ; do if grep -q 0 "$i" ; then echo 1 > $i ; fi ; done

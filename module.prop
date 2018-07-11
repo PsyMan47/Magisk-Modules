@@ -1,7 +1,7 @@
-id=template
-name=Template Module
-version=v1
-versionCode=1
-author=topjohnwu
-description=A short description
+id=AOF
+name=Always-On Fingerprint
+version=v1.4
+versionCode=3
+author=Psy_Man
+description=Thanks to this module, you can unlock your device without pressing the home button.
 minMagisk=1500

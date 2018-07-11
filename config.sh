@@ -22,13 +22,13 @@
 
 # Set to true if you need to enable Magic Mount
 # Most mods would like it to be enabled
-AUTOMOUNT=true
+AUTOMOUNT=false
 
 # Set to true if you need to load system.prop
 PROPFILE=false
 
 # Set to true if you need post-fs-data script
-POSTFSDATA=false
+POSTFSDATA=true
 
 # Set to true if you need late_start service script
 LATESTARTSERVICE=false
@@ -41,7 +41,11 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
+  ui_print "     Always-On Fingerprint     "
+  ui_print "*******************************"
+  ui_print "         FOR ANY DEVICE        "
+  ui_print "*******************************"
+  ui_print "    Psy_Man @ xda-developers   "
   ui_print "*******************************"
 }
 
